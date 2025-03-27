@@ -21,7 +21,7 @@ the function will replace '\n' be '\0'.
 - Function prametrs :
   - char *mgs : string will prompt for the user like `username :`.
   - char *dst : the distination for the input.
-  -size_t buff : lenght of the string includeing '\0'.
+  - size_t buff : lenght of the string includeing '\0'.
 - Function return :
   - `-1` if user input longer string than expected.
   -  `0` if the use input nothing.
