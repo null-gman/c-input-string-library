@@ -17,8 +17,12 @@ $(testing) : ./objs/test.o ./objs/inputStrLib.o
 	$(cc) -c $(cflages)  -o $@ $^  $(headers)
 
 
+folder:
+	mkdir ./objs/ ./bin/
+
 playTest:
 	$(testing)
 
+# will not work on windows
 clean:
 	rm -rf ./bin/* ./objs/*
